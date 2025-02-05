@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+android:background="@color/back"
+    tools:context=".Admin.AnotherSegment">
+
+    <ImageView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/placeimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/addphoto" />
+    <com.google.android.material.textfield.TextInputLayout
+    style="@style/viewpart"
+        >
+        <EditText
+            android:hint="Place Name"
+            android:id="@+id/placename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+    </com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/viewpart"
+    >
+    <EditText
+        android:hint="About the Place"
+        android:id="@+id/disc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Add"
+        style="@style/btn"
+        android:textColor="@color/black"
+        android:background="@drawable/purvecurve"
+        android:id="@+id/next3"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

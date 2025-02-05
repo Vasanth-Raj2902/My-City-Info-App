@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/back"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AddPlaces">
+    <LinearLayout
+        android:id="@+id/lau"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/images"
+            android:src="@drawable/addphoto"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:background="@drawable/curve"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+        <Spinner
+            android:id="@+id/second"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/curve"
+            android:backgroundTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+    style="@style/btn"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/purvecurve"
+        android:id="@+id/next"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText" />
+</LinearLayout></LinearLayout>

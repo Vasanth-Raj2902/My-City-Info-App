@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/back"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:ignore="HardcodedText"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+    <TextView
+        android:padding="10sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="My City info app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+<ImageView
+    app:tint="@color/white"
+    android:src="@drawable/city"
+    android:layout_marginTop="10dp"
+    android:padding="25sp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:text="Login Page"
+        android:gravity="start"
+        android:paddingStart="20sp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="9dp"
+        android:textScaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:boxCornerRadiusBottomStart="20sp"
+        app:boxCornerRadiusBottomEnd="20sp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxBackgroundColor="@color/white"
+        app:boxStrokeColor="@color/white"
+        app:hintEnabled="false"
+        android:layout_margin="9dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Mail-id"
+            android:paddingStart="10dp"
+            android:id="@+id/lmail"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/viewpart">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:paddingStart="10dp"
+            android:hint="Password"
+            android:id="@+id/pass"
+            android:textSize="17sp"
+            android:password="true"
+            android:layout_height="match_parent"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_margin="9dp"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:background="@color/back"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/signup"
+        android:layout_marginEnd="10sp"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:text="Register"
+        android:background="@drawable/purvecurve"
+        android:backgroundTint="#FFFF"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:layout_height="match_parent"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/logins"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:text="Login"
+        android:background="@drawable/purvecurve"
+        android:backgroundTint="#000"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:layout_height="match_parent"
+        tools:ignore="HardcodedText,UnusedAttribute" >
+
+    </TextView>
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

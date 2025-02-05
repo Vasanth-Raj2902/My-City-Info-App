@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+android:background="@color/back"
+    tools:context=".SignUp">
+    <ImageView
+        android:src="@drawable/city"
+        app:tint="@color/white"
+        android:padding="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:text="Sign up"
+        android:gravity="start"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="9dp"
+  android:paddingStart="52dp"
+        android:scaleY="1.5"
+android:textScaleX="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.textfield.TextInputLayout
+    style="@style/viewpart"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="textPersonName"
+            style="@style/edit"
+            android:id="@+id/name"
+            android:hint="Name" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/viewpart"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="phone"
+            android:id="@+id/mobile"
+            style="@style/edit"
+            android:maxLength="10"
+            android:hint="Mobile" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/viewpart"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="textEmailAddress"
+            style="@style/edit"
+            android:id="@+id/mail"
+            android:hint="Mail-id" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/viewpart"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/black"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="text"
+            android:password="true"
+            android:id="@+id/password"
+            style="@style/edit"
+            android:hint="Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="150dp"
+    android:layout_marginTop="50dp"
+    android:layout_gravity="center"
+    android:textSize="18sp"
+    android:textAllCaps="false"
+    android:backgroundTint="@color/white"
+    android:id="@+id/btn"
+    android:background="@drawable/purvecurve"
+    android:text="Create"
+    android:textColor="@color/black"
+    android:layout_height="50dp"/>
+</LinearLayout>

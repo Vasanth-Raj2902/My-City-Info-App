@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">CityInformation</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <style name="edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="inputl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginStart">9dp</item>
+        <item name="android:layout_marginBottom">7dp</item>
+        <item name="android:layout_marginEnd">9dp</item>
+    </style>
+
+    <style name="btn">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:background">@drawable/purvecurve</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <string name="api">AIzaSyA8bl-Fj_9R7IyKOWtSXCVFqRKb9sxN4iA</string>
+    <string name="title_activity_cities_maps">Cities_maps</string>
+    <string name="title_activity_search">SearchActivity</string>
+    
+    
+    <style name="transparent" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="viewpart" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="hintAnimationEnabled">false</item>
+        <item name="hintEnabled">false</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="boxCornerRadiusBottomStart">20sp</item>
+        <item name="boxCornerRadiusBottomEnd">20sp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxStrokeColor">@color/white</item>
+        <item name="android:layout_margin">9dp</item>
+    </style>
+</resources>

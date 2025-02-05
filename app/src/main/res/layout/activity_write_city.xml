@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".Admin.WriteCity">
+    <LinearLayout
+        android:id="@+id/layoute"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/cityimage"
+            android:src="@drawable/addphoto"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="100dp"
+            tools:ignore="ContentDescription" />
+        <Spinner
+            android:visibility="gone"
+            android:id="@+id/cityspinner"
+            android:background="@drawable/curve"
+            android:backgroundTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+    style="@style/viewpart"
+            >
+            <EditText
+                android:id="@+id/city"
+                android:hint="Enter City Name"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+<androidx.appcompat.widget.AppCompatButton
+    style="@style/btn"
+    android:text="Next"
+    android:layout_marginTop="10dp"
+    android:id="@+id/next2"
+    tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

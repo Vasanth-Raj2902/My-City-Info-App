@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/back"
+    android:theme="@style/mypart"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="start"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".User.StagesActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:elevation="100dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:text="Search options"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="139dp">
+<ImageView
+    android:id="@+id/tor"
+    android:layout_weight="0.5"
+    android:layout_width="0dp"
+    android:src="@drawable/traveler"
+    android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/hotels"
+            android:src="@drawable/hotel"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:text="Torists Places"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:gravity="center"
+            android:text="Hotels"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="139dp">
+        <ImageView
+            android:layout_weight="0.5"
+            android:id="@+id/busstans"
+            android:layout_width="0dp"
+            android:src="@drawable/transport"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:src="@drawable/hos"
+            android:layout_weight="0.5"
+            android:id="@+id/hospitals"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:text="Bus Stand"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:gravity="center"
+            android:text="Hospitals"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="139dp">
+        <ImageView
+            android:layout_weight="0.5"
+            android:id="@+id/police"
+            android:layout_width="0dp"
+            android:padding="15sp"
+            android:src="@drawable/police"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:src="@drawable/school"
+            android:layout_weight="0.5"
+            android:id="@+id/college"
+            app:tint="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:text="Police"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:gravity="center"
+            android:text="Schools"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="139dp">
+        <ImageView
+            android:layout_weight="0.5"
+            android:id="@+id/government"
+            android:layout_width="0dp"
+            android:padding="15sp"
+            app:tint="@color/white"
+            android:src="@drawable/publicadministration"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:src="@drawable/school"
+            android:layout_weight="0.5"
+            app:tint="@color/white"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:text="Government Offices"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText" />
+        <View
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
